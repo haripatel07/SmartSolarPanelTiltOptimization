@@ -47,9 +47,6 @@ This project requires the following Python libraries:
     - **Surface Tilt R²**: `0.9999`
     - **Surface Azimuth MSE**: `0.0144`
     - **Surface Azimuth R²**: `0.99997`
-  - Sample Predictions (assumed examples):
-    - Sample 1: POA Global = 300.12, Surface Tilt = 5.23, Surface Azimuth = 90.45
-    - Sample 2: POA Global = 370.89, Surface Tilt = 12.67, Surface Azimuth = 98.12
 
 - **Gradient Boosting**:
   - High accuracy but slightly outperformed by Random Forest in predicting POA Global Irradiance, Surface Tilt, and Surface Azimuth.
@@ -60,17 +57,11 @@ This project requires the following Python libraries:
     - **Surface Tilt R²**: `0.9991`
     - **Surface Azimuth MSE**: `0.2972`
     - **Surface Azimuth R²**: `0.9993`
-  - Sample Predictions (assumed examples):
-    - Sample 1: POA Global = 298.76, Surface Tilt = 4.89, Surface Azimuth = 91.23
-    - Sample 2: POA Global = 368.45, Surface Tilt = 11.98, Surface Azimuth = 97.89
 
 - **LSTM**: Promising for sequential predictions of POA Global Irradiance, Surface Tilt, and Surface Azimuth, with:
   - **Test Loss**: `0.4816`
   - **Test MSE**: `0.4816`
   - **Test MAE**: `0.5092`
-  - Sample Predictions:
-    - Sample 1: POA Global = 296.7306, Surface Tilt = -0.7658, Surface Azimuth = 89.1590
-    - Sample 2: POA Global = 374.0726, Surface Tilt = 10.9956, Surface Azimuth = 99.0403
 
 ## Future Enhancements
 - Develop **hybrid models** (e.g., **Random Forest + LSTM**) for improved generalization in predicting POA Global Irradiance, Surface Tilt, and Surface Azimuth.
